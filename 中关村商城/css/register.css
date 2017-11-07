@@ -1,0 +1,291 @@
+/* 以下是header部分 */
+.header_inner{
+	width: 990px;
+	margin: 0 auto;
+	padding: 14px 0 20px 0;
+}
+
+.header_inner .logo,.header_inner .logo a,.header_inner .logo img,.register-bar p{
+	float:left;
+}
+
+.header_inner .logo p{
+	float: left;
+	font-size: 14px;
+	line-height: 44px;
+	font-family: simsun;
+	color: #666;
+	border-left: 1px solid #e6e6e6;
+	margin: 8px 0 0 8px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.header_inner .register-bar{
+	float: right;
+	font-size: 14px;
+	line-height: 22px;
+	padding-top: 21px;
+}
+
+.register-bar a{
+	float: left;
+	padding: 3px 10px;
+	color: #c00;
+	line-height: 14px;
+}
+
+
+/* 以下为main部分 */
+.main_inner{
+	width: 980px;
+	margin:0 auto;
+	border: 1px solid #e6e6e6;
+	padding-bottom: 100px;
+}
+
+.main_inner h3{
+	padding: 16px 0 16px 90px;
+	background: #fafafa;
+	font-size: 18px;
+	line-height: 28px;
+	color: #999;
+	font-weight: normal;
+}
+
+.main_l{
+	float: left;
+	padding: 30px 0 0 89px;
+	width: 500px;
+}
+
+.main_l .main_l_t{
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+
+.main_l .main_l_t p{
+	font-size: 18px;
+	line-height: 38px;
+	text-align: center;
+	padding: ;
+	border-top: 2px solid #e02d2d;
+	border-left: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	width: 252px;
+	color: #c00;
+}
+
+.main_l .main_l_t .cover{
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	height: 1px;
+	background: #fff;
+	width: 252px;
+}
+
+.main_l_b{
+	padding-top: 30px;
+}
+
+.main_l label{
+	display: block;
+	margin-bottom: 42px;
+	position: relative;
+}
+
+.main_l label .txt{
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+	font-family: "Arial";
+	color: #666;
+	text-align: right;
+	width: 83px;
+}
+
+.main_l label .txt span{
+	color: #f30;
+	font-size: 12px;
+	font-family: "Simsun";
+	padding-right: 7px;
+}
+
+.main_l label input{
+	float: left;
+	width: 278px;
+	border: 0;
+	padding: 8px 5px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	line-height: 22px;
+	outline: none;
+	background: none !important;
+}
+
+.main_l_b .hint{
+	position: absolute;
+	left: 83px;
+	top: 47px;
+	color: #aaa;
+}
+
+.main_l_b p:nth-of-type(3){
+	position: absolute;
+	left: 383px;
+	top: 0;
+	font-size: 12px;
+	line-height: 40px;
+	color: #ff3333;
+	padding-left: 20px;
+	white-space: nowrap;
+}
+
+.main_l_b .error{
+	background: url('https://login.zol.com/image/login-bg.png') no-repeat;
+	background-position: -155px -184px;
+	display: none;
+}
+
+#verify input{
+	width: 158px;
+}
+
+#verify #v_container{
+	float: left;
+	width: 98px;
+	height: 38px;
+	border: 1px solid #ccc;
+}
+
+#verify #code{
+	float: left;
+	width: 108px;
+	height: 38px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	line-height: 38px;
+	color: #666;
+	cursor: pointer;
+	text-align: center;
+	background: #f8f8f8;
+}
+
+.c_box{
+	padding-left: 83px;
+	font-size: 12px;
+	line-height: 32px;
+	color: #999;
+}
+
+.c_box input{
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.c_box a{
+	color: #134ba0;
+}
+
+.c_box a:hover{
+	color: #c00;
+	text-decoration: underline;
+}
+
+#sub{
+	width: 290px;
+	height: 40px;
+	margin: 20px 0 0 83px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	background: url(https://login.zol.com/image/bg.png) no-repeat;
+	background-position: 0 0;
+	outline: none;
+}
+
+
+.main_r{
+	float: right;
+	height: 500px;
+	margin-top: 30px;
+	padding: 0 80px 0 25px;
+	border-left: 1px solid #f5f5f5;
+	width: 170px;
+}
+
+.main_r p{
+	margin-top: -6px;
+	font-size: 12px;
+	line-height: 24px;
+	font-family: "Arial";
+	color: #666;
+}
+
+.main_r p a{
+	margin: 0 6px;
+	color: #134ba0;
+}
+
+.main_r .main_r_b a{
+	margin: 15px 0 0;
+	width: 170px;
+	height: 36px;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+	text-indent: -9999em;
+	background: url(https://login.zol.com/image/login-bg.png) no-repeat;
+}
+
+.main_r .main_r_b a:nth-of-type(1){
+	background: url(http://icon.zol-img.com.cn/newshop/login/weixin.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+
+.main_r .main_r_b a:nth-of-type(2){
+	background-position: 0 0;
+}
+
+.main_r .main_r_b a:nth-of-type(3){
+	background-position: 0 -37px;
+}
+
+.main_r .main_r_b a:nth-of-type(4){
+	background-position: 0 -74px;
+}
+
+.main_r .main_r_b a:nth-of-type(5){
+	background-position: 0 -111px;
+}
+
+/* 以下为footer部分 */
+
+footer{
+	margin-top: 50px;
+	padding: 15px 0 25px;
+	border-top: 1px solid #dcdcdc;
+}
+
+.footer_inner{
+	width: 990px;
+	margin: 0 auto;
+}
+
+.footer_inner .about{
+	float: left;
+}
+
+.footer_inner .about a{
+	margin: 0 10px;
+	color: #666;
+}
+
+.footer_inner p{
+	float: right;
+	color: #666;
+}

@@ -1,0 +1,116 @@
+.main_line {
+  width: 1200px;
+  height: 2px;
+  margin: 0 auto;
+  position: relative;
+  background: #ec3639;
+  margin-top: -2px; }
+  .main_line a {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #f33; }
+  .main_line a:hover {
+    color: #c00;
+    text-decoration: underline; }
+
+.head-region {
+  width: 100%;
+  height: 463px;
+  background: url("http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/headRegion.jpg") no-repeat center top; }
+
+.module_one {
+  width: 100%;
+  height: 384px;
+  background: url("http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/bannerRegion.png") no-repeat center top; }
+
+.module-two {
+  width: 100%;
+  height: 634px;
+  background: url("http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/sectionTwo.png") no-repeat center top; }
+
+.module-three {
+  width: 100%;
+  background: #fafafa url("http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/directBg.png") no-repeat center top; }
+  .module-three img {
+    width: 997px;
+    margin: 0 auto;
+    display: block; }
+
+.module_four {
+  background: #ff441d; }
+  .module_four .module_f_t {
+    background: url("http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/recommendTl.png") no-repeat center 33px;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 133px; }
+    .module_four .module_f_t img {
+      width: 100%;
+      vertical-align: top;
+      display: block; }
+
+.module_f_b {
+  width: 1100px;
+  margin: 0 auto; }
+  .module_f_b .nav {
+    height: 48px;
+    margin: 10px 0 10px -6px; }
+    .module_f_b .nav li {
+      float: left;
+      width: 270px;
+      line-height: 48px;
+      text-align: center;
+      font-size: 22px;
+      margin-left: 6px;
+      color: #ff441d;
+      background: #fff;
+      border-radius: 4px; }
+    .module_f_b .nav li.active {
+      background: #ffec25; }
+  .module_f_b .ware {
+    margin-left: -20px; }
+    .module_f_b .ware li {
+      float: left;
+      margin: 0 0 20px 20px;
+      background: #fff;
+      padding: 25px;
+      width: 210px; }
+      .module_f_b .ware li .pic {
+        width: 100%;
+        text-align: center;
+        display: block; }
+      .module_f_b .ware li .txt {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 11px 0  12px 0;
+        height: 44px;
+        overflow: hidden;
+        text-align: left;
+        display: block; }
+      .module_f_b .ware li .txt:hover {
+        color: #c00;
+        text-decoration: underline; }
+      .module_f_b .ware li .price {
+        font-size: 24px;
+        color: #ff3333;
+        font-weight: bold;
+        line-height: 28px;
+        float: left; }
+      .module_f_b .ware li .buy_btn {
+        float: right;
+        width: 85px;
+        line-height: 28px;
+        background: #ff3333;
+        color: #fff;
+        border-radius: 3px;
+        text-align: center; }
+
+.module_five {
+  padding: 46px 0 88px;
+  background: #fff;
+  text-align: center; }
+  .module_five img {
+    vertical-align: top;
+    margin: 0 auto; }

@@ -1,0 +1,674 @@
+.top_inner,.search_inner,.bottom_inner{
+	width:1200px;
+	margin:0 auto;
+}
+
+
+/*以下为top部分*/
+#top{
+	font: 12px/29px arial;
+	background: #f5f5f5;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.top_l{
+	float: left;
+}
+
+#top .top_inner a:hover{
+	color: #c00;
+	text-decoration: underline;
+}
+
+.top_l li{
+	float: left;
+	padding-right: 20px;
+	color: #666;
+}
+
+.top_l li a{
+	color:#666;
+	font-size: 12px;
+	line-height: 29px;
+}
+
+.top_l li:nth-of-type(2) a{
+	color:#36c;
+}
+
+.top_l li:nth-of-type(3) a{
+	color:#36c;
+}
+
+
+.top_r{
+	float: right;
+}
+
+.top_r li{
+	float: left;
+	margin:0 10px;
+}
+
+.top_r li a{
+	float: left;
+	font-size: 12px;
+	line-height: 29px;
+}
+
+.top_r .separator{
+	color:#ccc;
+}
+
+.top_r li:nth-of-type(2)>a,.top_r li:nth-of-type(8)>a{
+	padding:0 23px 0 10px;
+	position: relative;
+} 
+.top_r li:nth-of-type(6)>a{
+	padding: 0 23px 0 25px;
+	position: relative;
+}
+#top .top_r li:nth-of-type(2)>a:hover,#top .top_r li:nth-of-type(6)>a:hover,#top .top_r li:nth-of-type(8) a:hover{
+	color: #666;
+	text-decoration: none;
+}
+
+.top_r li:nth-of-type(2) .ico,.top_r li:nth-of-type(6) .ico,.top_r li:nth-of-type(8) .ico{
+	position: absolute;
+	right:10px;
+	top:50%;
+	margin-top:-2px;
+	width:7px;
+	height: 4px;
+	background: url("http://icon.zol-img.com.cn/newshop/shop/index/topbar_ico.png") no-repeat;
+	background-position:0 -45px ;
+}
+
+#top .top_r .top_change:hover a .ico{
+	transform: rotate(180deg);
+}
+
+.top_r li:nth-of-type(6) .ico:first-child{
+	left: 0px;
+	margin-top: -15px;
+	height: 24px;
+	width: 20px;
+	background-position: 0 0;
+}
+
+#top .top_r li:nth-of-type(6):hover .ico:first-child{
+	transform: rotate(0)
+}
+
+.top_r li:nth-of-type(6) .icon:nth-child(1){
+	left: 0;
+}
+
+.top_r li:nth-of-type(2),.top_r li:nth-of-type(6),.top_r li:nth-of-type(8){
+	position: relative;
+	border: 1px solid #f5f5f5;
+}
+
+.top_r li:nth-of-type(2) .top_r_follow{
+	position: absolute;
+	left: -1px;
+	top: 29px;
+	padding: 3px 9px;
+	width: 88px;
+	border: 1px solid #ededed;
+	background: #fff;
+	display: none;
+	z-index: 5;
+}
+
+.top_r li:nth-of-type(2) .top_r_follow>a{
+	display: inline-block;
+}
+
+.top_r li:nth-of-type(2) .top_r_follow>a>span{
+	color: #c00;
+}
+
+.top_r li:nth-of-type(2) .top_r_follow>a:hover{
+	color: #c10;
+	text-decoration: none;
+}
+.top_r_cover{
+	position: absolute;
+	left:0;
+	top: 29px;
+	height: 1px;
+	width: 80px;
+	background: #fff;
+	z-index: 10;
+}
+
+.top_r li.top_active{
+	border: 1px solid #ededed;
+	background: #fff;
+}
+
+.top_r_er{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	left: -1px;
+	top: 29px;
+	background: #fff;
+	border: 1px solid #ededed;
+	text-align: center;
+	padding: 20px;
+	z-index: 9;
+	display: none;
+}
+
+.top_r_er img{
+	width: 130px;
+	height: 130px;
+}
+
+.top_r_phone{
+	width: 80px;
+	position: absolute;
+	right: 0;
+	top: 29px;
+	padding: 3px 9px;
+	border: 1px solid #ededed;
+	text-align: right;
+	background: #fff;
+	z-index: 9;
+	display: none;
+}
+
+
+/*活动图样式*/
+.top-activity-banner {
+    padding: 10px 0px 0px;
+    background: rgb(255, 255, 255);
+}
+.top-activity-banner img {
+    display: block;
+    vertical-align: middle;
+    margin: 0px auto;
+}
+
+
+/* search部分 */
+#search{
+	padding: 30px 0;
+	background: #fff;
+}
+.search_inner{
+	width: 1200px;
+	margin: 0 auto;
+}
+.search_inner .logo{
+	float: left;
+}
+
+.search_inner .logo a{
+	display: block;
+	width: 130px;
+	height: 60px;
+	background: url("http://icon.zol-img.com.cn/newshop/shop/index/130_60_logo.gif") no-repeat center;	
+}
+
+.search_inner .address{
+	float: left;
+	position: relative;
+	margin: 10px 0 0 20px;
+}
+
+.search_inner .address span{
+	padding: 0 26px 0 12px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #333;
+	background: #fff;
+	position: relative;
+	display: block;
+	border: 1px solid #e6e6e6;
+	z-index: 110;
+}
+
+.search_inner .address:hover span{
+	border-bottom: 0;
+}
+
+.search_inner .address:hover span .icon{
+	transform: rotate(180deg);
+}
+
+.search_inner .address span .icon{
+	background: url("http://icon.zol-img.com.cn/newshop/shop/index/head.png") no-repeat;
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	top: 50%;
+	margin-top: -2px;
+	right: 12px;
+	background-position: -28px -155px; 
+}
+
+.city_list{
+	position: absolute;
+	width: 180px;
+	padding: 8px 0;
+	left: 0px;
+	top: 26px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	z-index: 101;
+	display: none;
+}
+
+.city_list li{
+	float: left;
+	padding: 2px 10px;
+	font-size: 12px;
+	line-height: 26px;
+}
+
+.city_list li a{
+	float: left;
+	padding: 0 8px;
+}
+
+.city_list li:nth-child(1) a{
+	background: #ce1a1b;
+	color: #fff;
+}
+
+.city_list li a:hover{
+	background: #f4f4f4;
+	color: #ce1a1b;
+}
+
+.search_inner .sea{
+	float: left;
+	margin: 7px 0 0 70px;
+	position: relative;
+}
+
+.search_text{
+	width: 441px;
+	line-height: 20px;
+	border: 0;
+	outline: none;
+	line-height: 20px;
+	float: left;
+	border:2px solid #ec3639;
+	border-right: none;
+	height: 20px;
+	padding: 6px 10px;
+}
+
+.search_btn{
+	float: left;
+	width: 75px;
+	height: 36px;
+	background: #ec3639;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 36px;
+	border: none;
+	border: 2px solid #ec3639;
+	border-left: none;
+	color: #fff;
+}
+.search-hot-words{
+	position: absolute;
+	top: 9px;
+	right: 85px;
+}
+.search-hot-words a{
+	float: left;
+	padding: 0 5px;
+	font-size: 12px;
+	line-height: 18px;
+	background: #eee;
+	color: #757575;
+	margin-right: 5px;
+	transition: all .2s;
+}
+
+.search-hot-words a:hover{
+	color: #fff;
+	background:#ec3639;
+	text-decoration: none;
+}
+
+.search_inner .entry{
+	float: right;
+	padding: 7px 0 0;
+}
+
+.search_inner .entry a{
+	float: right;
+	font-size: 14px;
+	line-height: 36px;
+	position: relative;
+	margin-left: 20px;
+}
+
+.search_inner .entry a .ico{
+	position: absolute;
+	left: 0;
+	background: url('http://icon.zol-img.com.cn/newshop/shop/index/head.png') no-repeat;
+}
+
+.search_inner .entry a:nth-child(1){
+	padding-left:24px;
+}
+
+.search_inner .entry a:nth-child(1) .ico{
+	top: 9px;
+	width: 18px;
+	height: 18px;
+	background-position: 0 -211px;
+}
+
+.search_inner .entry a:nth-child(1):hover .ico{
+	background-position: -32px -211px;
+}
+
+.search_inner .entry a:nth-child(2){
+	padding-left:27px;
+}
+
+.search_inner .entry a:nth-child(2):hover .ico{
+	background-position: -28px -190px;
+}
+
+.search_inner .entry a:nth-child(2) .ico{
+	top: 9px;
+	width: 22px;
+	height: 18px;
+	background-position: 0 -190px;
+}
+
+.search_inner .entry a:nth-child(3){
+	padding-left:28px;
+}
+
+.search_inner .entry a:nth-child(3) .ico{
+	top: 8px;
+	width: 20px;
+	height: 20px;
+	background-position: 0 -167px;
+}
+
+.search_inner .entry a:nth-child(3):hover .ico{
+	background-position: -30px -167px;
+}
+
+.search_inner .entry a:hover{
+	color: #f33;
+}
+
+
+
+
+/* nav部分 */
+#nav{
+	background: #fff;
+}
+
+.nav_inner{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav_list{
+	padding:0 0 0 180px ;
+}
+
+.nav_list li{
+	float: left;
+	padding: 0 30px 0 0;
+}
+
+.nav_list li a{
+	float: left;
+	padding: 0 10px;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.nav_list li:nth-child(1) a{
+	color: #f33;
+}
+
+.nav_list li a:hover{color:#f33;}
+
+.nav_all{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 160px;
+	background: #ec3639;
+	z-index: 100;
+}
+
+.nav_all>p{
+	font-size: 16px;
+	line-height: 38px;
+	padding-left: 52px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav_all>p .ico{
+	background: url(http://icon.zol-img.com.cn/newshop/shop/index/head.png) no-repeat;
+	position: absolute;
+	top: 14px;
+	left: 26px;
+	width: 12px;
+	height: 10px;
+	background-position: 0 -154px;
+}
+
+.nav_all .nav_all_b{
+	background: #fff;
+	z-index: 100;
+}
+
+.nav_all ul:nth-of-type(1){
+	background: #454545;
+	height: 400px;
+	color: #fff;
+	position: relative;
+	z-index: 3;
+}
+
+.nav_all ul:nth-of-type(1) li{
+	margin: 0 10px;
+	padding-left: 51px;
+	border-top: 1px solid #4d4d4d;
+	height: 54px;
+	position: relative;
+	z-index: 5;
+}
+
+.nav_all ul:nth-of-type(1) li h3{
+	position: relative;
+}
+
+.nav_all ul:nth-of-type(1) li h3 a{
+	font-size: 16px;
+	line-height: 54px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.nav_all ul:nth-of-type(1) li h3 em{
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	width: 6px;
+	height: 11px;
+	background: url(http://icon.zol-img.com.cn/newshop/shop/index/head.png) no-repeat;
+	background-position: -44px -154px;
+	margin-top: -6px;
+}
+
+.nav_all ul:nth-of-type(1) li .ico{
+	background: url(http://icon.zol-img.com.cn/newshop/shop/index/head.png) no-repeat;
+	width: 13px;
+	height: 18px;
+	position: absolute;
+	left: 16px;
+	top: 17px;
+}
+
+.nav_all ul:nth-of-type(1) li:nth-of-type(2) .ico{
+	background-position: 0 -21px;
+	width: 20px;
+	height: 16px;
+	left: 12px;
+	top: 20px;
+}
+
+.nav_all ul:nth-of-type(1) li:nth-of-type(3) .ico{
+	background-position:0 -133px;
+	width: 19px;
+	height: 18px;
+	left: 13px;
+	top: 19px;
+}
+
+.nav_all ul:nth-of-type(1) li:nth-of-type(4) .ico{
+	background-position: 0 -40px;
+	width: 20px;
+	height: 18px;
+	left: 12px;
+	top: 17px;
+}
+
+.nav_all ul:nth-of-type(1) li:nth-of-type(5) .ico{
+	background-position:0 -61px;
+	width: 15px;
+	height: 27px;
+	left: 15px;
+	top: 11px;
+}
+
+.nav_all ul:nth-of-type(1) li:nth-of-type(6) .ico{
+	background-position: 0 -91px;
+	width: 19px;
+	height: 17px;
+	left: 13px;
+	top: 18px;
+}
+
+.nav_all ul:nth-of-type(1) li.hover{
+	border-left: 2px solid #454545;
+	background: #fff;
+	padding-left: 54px;
+	border-top: 1px solid #fff;
+	margin: 0;
+}
+
+.nav_all ul:nth-of-type(1) li.hover a{
+	color: #333;
+}
+
+.nav_all ul:nth-of-type(1) li.hover .ico1{
+	background-position: -37px 0;
+	left: 24px;
+}
+
+.nav_all ul:nth-of-type(1) li.hover .ico2{
+	background-position: -30px -21px;
+	left: 20px;
+}
+
+.nav_all ul:nth-of-type(1) li.hover .ico3{
+	background-position: -31px -133px;
+	left: 21px;
+}
+
+.nav_all ul:nth-of-type(1) li.hover .ico4{
+	background-position: -30px -40px;
+	left: 20px;
+}
+
+.nav_all ul:nth-of-type(1) li.hover .ico5{
+	background-position: -35px -61px;
+	left: 23px;
+}
+
+.nav_all ul:nth-of-type(1) li.hover .ico6{
+	background-position: -31px -91px;
+	left: 21px;
+}
+
+.nav_all ul:nth-of-type(1) .hover em{
+	display: none;
+}
+
+.nav_all ul:nth-of-type(1) li a:hover{
+	color: #f33;
+	text-decoration: underline;
+}
+
+.nav_all_mouse{
+	position: absolute;
+	top: 0;
+	left: 159px;
+	width: 680px;
+	height: 400px;
+	background: #fff;
+	box-shadow: 0 0 8px 0 #ccc;
+	display: none;
+}
+
+.nav_all_mouse li{
+	padding: 0 30px 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 400px;
+	display:none;
+}
+
+.nav_all_b{
+	position: relative;
+	display: block;
+}
+
+.nav_all_mouse .nav_all_t{
+	padding-top: 13px;
+}
+
+.nav_all_mouse .nav_all_t a{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 28px;
+	padding-right: 30px;
+}
+
+.nav_all_mouse .nav_all_t a:hover{
+	color: #f33;
+	text-decoration: underline;
+}
+
+.nav_all_mouse .nav_all_img{
+	position: absolute;
+	bottom: 30px;
+	width: 620px;
+	height: 290px;
+}
+
+.nav_all_mouse .nav_all_img a{
+	display: block;
+	width: 620px;
+	height: 290px;
+}
+
+.nav_all_mouse .nav_all_b a img{
+	width: 100%;
+	height: 100%;
+}
+

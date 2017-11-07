@@ -1,0 +1,185 @@
+.footer_wraper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#footer{
+	border-top: 1px solid #d9d9d9;
+	margin-top: 30px;
+}
+
+.footer_wraper ul{
+	padding: 30px 0;
+}
+
+.footer_wraper ul li{
+	float: left;
+	background: url('http://icon.zol-img.com.cn/newshop/shop/index/service-bg.png') no-repeat;
+	width: 200px;
+}
+
+.footer_wraper ul li a{
+	float: left;
+	padding-left: 60px;
+}
+
+.footer_wraper ul li a p:nth-of-type(1){
+	font-size: 18px;
+	line-height: 28px;
+	color: #333;
+}
+
+.footer_wraper ul li a p:nth-of-type(2){
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+}
+
+.footer_wraper ul li:nth-of-type(1){
+	background-position: left top;
+}
+
+.footer_wraper ul li:nth-of-type(2){
+	background-position: left -52px;
+}
+
+.footer_wraper ul li:nth-of-type(3){
+	background-position: left -104px;
+}
+
+.footer_wraper ul li:nth-of-type(4){
+	background-position: left -156px;
+}
+
+.footer_wraper ul li:nth-of-type(5){
+	background-position: left -208px;
+}
+
+.footer_wraper ul li:nth-of-type(6){
+	background-position:left -260px;
+}
+
+.footer_c{
+	padding: 20px 0;
+	border-top: 1px solid #ededed;
+}
+
+.footer_c a:hover{
+	text-decoration: underline;
+}
+
+.footer_c dl{
+	float: left;
+	width: 175px;
+}
+
+.footer_c dl dt{
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	font-weight: bold;
+}
+
+.footer_c dl dd p{
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.footer_c dl dd p a{
+	color: #666;
+}
+
+.footer_c dl.cooperation,.footer_c dl.hotline{
+	background: url(http://icon.zol-img.com.cn/newshop/shop/index/footer.png) no-repeat;
+	float: right;
+	padding-left: 60px;
+}
+
+.footer_c dl.cooperation{
+	width: 145px;
+	background-position: 0 -215px;
+}
+
+.footer_c dl.cooperation a{
+	width: 80px;
+	background: #f33;
+	display: block;
+	font-size: 12px;
+	line-height: 26px;
+	color: #fff;
+	border-radius: 2px;
+	text-align: center;
+	margin-top: 6px;
+}
+
+.footer_c dl.cooperation a:hover{
+	background: #c40000;
+	text-decoration: none;
+}
+
+.footer_c dl.cooperation a span{
+	font-family:SimSun;
+}
+
+.footer_c dl.hotline{
+	width: 210px;
+	background-position: 0 -90px;
+}
+
+.footer_c dl.hotline dt{
+	font-size: 16px;
+}
+
+.footer_c dl.hotline dd a{
+	background: url('http://icon.zol-img.com.cn/newshop/shop/index/footer.png') no-repeat;
+	display: inline-block;
+	padding-left: 26px;
+	line-height: 32px;
+	font-size: 12px;
+	color: #333;
+}
+
+.footer_b{
+	background: #2d2d2d;
+}
+
+.footer_b a:hover{
+	text-decoration: underline;
+}
+
+.footer_b_inner{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 25px 0 30px;
+}
+
+.footer_nav{
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+	padding-top: 7px;
+	margin-left: -10px;
+}
+
+.footer_nav a{
+	padding: 0 10px;
+	color: #fff;
+}
+
+.copyright{
+	margin-left: -10px;
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+}
+
+.copyright a{
+	padding: 0 10px;
+	color: #999;
+}
+
+.copyright p{
+	color: #999;
+}
+

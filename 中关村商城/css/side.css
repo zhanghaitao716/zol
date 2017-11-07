@@ -1,0 +1,321 @@
+/* 右侧导航 */
+.side_box{
+	position: fixed;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: transparent;
+	z-index: 10000;
+}
+
+.side_tabber{
+	position: absolute;
+	left: -37px;
+	top: 0;
+	width: 37px;
+	height: 100%;
+	background: #2d2d2d;
+}
+
+.side_box_t{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -250px;
+	width: 37px;
+	height: 266px;
+}
+
+.side_box_t li{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.side_box_t li i{
+	width: 37px;
+	height: 37px;
+	cursor: pointer;
+	display: block;
+	background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+	background-position: 0 0;
+}
+
+.side_box_t li span{
+	height: 37px;
+	position: absolute;
+	left: 0px;
+	font-size: 12px;
+	line-height: 37px;
+	text-align: center;
+	white-space: nowrap;
+	width: 68px;
+	background: #f33;
+	top: 0;
+	z-index: -1;
+	color: #fff;
+}
+
+.side_box_t li:nth-child(2) i{
+	background-position: 0 -74px;
+}
+
+.side_box_t li:nth-child(3) i{
+	background-position: 0 -111px;
+}
+
+.side_box_t li:nth-child(4) i{
+	background-position: 0 -693px;
+}
+
+.side_box_b{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.side_box_b a{
+	width: 37px;
+	display: block;
+	height: 37px;
+	background:#2d2d2d url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+	background-position: 0 -185px;
+}
+
+/* 右侧切换 */
+
+.side_switch{
+	width: 255px;
+	height: 100%;
+	background: #ededed;
+	position: relative;
+	z-index: 10;
+	display: none;
+}
+
+.side_switch>div{
+	position: absolute;
+	width: 255px;
+	height: 100%;
+	left: 0;
+	top: 100%;
+}
+
+.side_order_t{
+	position: relative;
+}
+
+.side_order_t h3{
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.side_order_t>p{
+	width: 37px;
+	height: 50px;
+	position: absolute;
+	background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+	background-position: 0 -367px;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+.side_order_b{
+	position: relative;
+	height: 100%;
+}
+
+.side_order_b>a{
+	padding: 15px 0;
+	font-size: 12px;
+	line-height: 22px;
+	display: block;
+	text-align: center;
+}
+
+.side_order_b>a span{
+	font-family: SimSun;
+}
+
+.side_empty_box{
+	position: absolute;
+	left: 0;
+	top: 200px;
+	padding: 0 20px;
+	width: 200px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+}
+
+.side_empty_box>p{
+	text-align: center;
+}
+
+.side_order_b>span{
+	padding: 0 0 10px;
+	color: #999;
+	display: block;
+	text-align: center;
+}
+
+.goods_num{
+	position: absolute;
+	top: -4px;
+	right: 3px;
+	padding: 1px 4px 0;
+	font: 12px/13px Arial;
+	color: #fff;
+	border-radius: 10px;
+	background: #f33;
+}
+
+/* .side_switch{
+	display: block !important;
+} */
+
+/* .side_shopcar{
+	top: 0!important;
+}
+
+.side_order_b .side_empty_box{
+	display: none;
+} */
+/* 购物车列表 */
+
+.side_shop_car{
+	height: 100%;
+	
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.side_order_b ul{
+	height: auto;
+}
+
+.side_order_b ul li{
+	margin-bottom: 15px;
+	background: #fff;
+	padding-bottom: 15px;
+}
+
+.shop_car_t{
+	padding: 0 10px;
+	font-size: 12px;
+	line-height: 26px;
+	background: #f8f8f8;
+}
+
+.shop_car_t input{
+	margin-right: 8px;
+	float: left;
+	margin-top: 8px;
+	margin-left: 0;
+}
+
+.shop_car_t span{
+	float: left;
+}
+
+.shop_car_c{
+	padding: 10px 10px 15px;
+}
+
+.shop_car_c input{
+	float: left;
+	margin: 15px 8px 0 0;
+}
+
+.shop_car_c a{
+	width: 42px;
+	height: 42px;
+	float: left;
+}
+
+.shop_car_c a img{
+	width: 100%;
+	height: 100%;
+}
+
+.shop_car_number{
+	width: 86px;
+	float: left;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.shop_car_number em{
+	vertical-align: middle;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(http://icon.zol-img.com.cn/newshop/shop/MarketingTool/setcoupon/bar_ico.png) no-repeat;
+}
+
+.shop_car_number .zc-minus{
+	background-position: 0 -437px;
+}
+
+.shop_car_number .zc-plus{
+	background-position: -17px -437px;
+}
+
+.shop_car_number span{
+	font-size: 12px;
+	line-height: 42px;
+	padding: 0 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.shop_car_price{
+	float: left;
+	width: 66px;
+	font-size: 12px;
+	line-height: 42px;
+	text-align: right;
+}
+
+.zc-order-related{
+	margin: 0 10px;
+	border-top: 1px dotted #ededed;
+	font-size: 12px;
+	line-height: 40px;
+	color: #666;
+}
+
+
+.zc-order-related p:nth-child(1){
+	float: left;
+}
+
+.zc-order-related p:nth-child(2){
+	float: right;
+	color: #f33;
+}
+
+.zc-order-related p span{
+	color: #333;
+	padding: 0 5px;
+}
+
+.zc-order-related p:nth-child(2) span{
+	color: #f33;
+}
+
+#shop_car_btn{
+	width: 215px;
+	font-size: 12px;
+	line-height: 30px;
+	display: block;
+	margin: 0 auto;
+	background: #b9b9b9;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	border: 0;
+}

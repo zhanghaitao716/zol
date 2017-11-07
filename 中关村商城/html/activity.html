@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ZOL活动页</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/activity.css">
+</head>
+<body>
+	<header></header>
+	<main>
+		<div class="main_line">
+			<a href="##">iPhone 8 抢占新机，预约到店购。</a>
+		</div>
+		<a href="##">
+			<div class="head-region"></div>
+		</a>
+		<div class="module_one"></div>
+		<div class="module-two"></div>
+		<div class="module-three">
+			<img src="http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/directRegion.png" alt="">
+		</div>
+		<div class="module_four">
+			<div class="module_f_t">
+				<img src="http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/recommendPic.png" alt="">
+			</div>
+			<div class="module_f_b">
+				<ul class="nav clearfic">
+					<li class="active">手机</li>
+					<li>笔记本</li>
+					<li>平板</li>
+					<li>配件</li>
+				</ul>
+				<ul class="ware clearfix">
+					<!-- <li>
+						<a href="##" class="pic"><img src="http://i5.mercrt.fd.zol-img.com.cn/t_s210x210/g5/M00/01/0B/ChMkJ1jWDXuIfi8SAALeXUUs420AAbDBgBVPbAAAt51485.jpg" alt=""></a>
+						<a href="##" class="txt">苹果 iPhone 7（全网通）32GB/128GB 700+1200万像素 指纹识别</a>
+						<div class="clearfix">
+							<p class="price"><span>¥</span>4499</p>
+							<a href="##" class="buy_btn">立即购买</a>
+						</div>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="module_five">
+			<img src="http://icon.zol-img.com.cn/newshop/shop/topic/zs_iphone8/rulePic.jpg" alt="">
+		</div>
+	</main>
+	<footer></footer>
+</body>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../js/require.js"></script>
+<!--<script src="../js/activity.js"></script>-->
+<script>
+		$("header").load("../data/data.html .header",function(){
+			require(["../js/top"])
+			$(".top-activity-banner").remove();
+			$(".nav_list").children().eq(0).find("a").css({
+				color:"#333"
+			});
+			$(".login").attr("href","../html/login.html");
+			$(".index").attr("href","../index.html");
+			$(".register").attr("href","../html/register.html");
+			$(".search-hot-words").find("a").attr("href","../html/activity.html");
+		});
+		$("footer").load("../data/data.html #footer",function(){
+			$(".footer_wraper").children().eq(0).remove();
+		});
+	</script>
+</html>
